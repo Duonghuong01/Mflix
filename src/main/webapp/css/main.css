@@ -1,0 +1,34 @@
+.carousel-item{
+    height:300px;
+}
+/*.col{*/
+/*    border:solid ;*/
+
+/*}*/
+/*.container{*/
+/*    padding:100px;*/
+/*}*/
+.card-img-top{
+    height:300px;
+    background-color:gray;
+    min-height:200px;
+}
+.movie-description{
+    height:20px;
+
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+}
+
+.movie-title{
+    height:50px;
+
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+}
